@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Office search</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="{{ app.request.basepath }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ app.request.basepath }}/css/style.css" rel="stylesheet">
+
+    <script src="{{ app.request.basepath }}/js/jquery-1.11.0.min.js"></script>
+    {% block head %}
+    {% endblock %}
+
+</head>
+
+<body>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+
+</html>

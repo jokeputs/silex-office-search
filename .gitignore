@@ -1,0 +1,9 @@
+example/
+cfg/
+db/
+doc/
+example/
+vagrant/
+src/.idea/
+src/composer2.phar
+src/vendor/
